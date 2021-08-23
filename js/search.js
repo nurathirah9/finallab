@@ -40,3 +40,22 @@ let cancel = document.querySelector("#cancelbtn");
 
 cancel.addEventListener("click", function(e){
        recipes.classList.add("none") })
+
+document.querySelector("#heart-1").addEventListener("click", function(){
+    console.log(document.querySelector("#heart-1").style.color ="red")
+})
+document.querySelector("#heart-2").addEventListener("click", function(){
+  console.log(document.querySelector("#heart-2").style.color ="red")
+})
+document.querySelector("#heart-3").addEventListener("click", function(){
+  console.log(document.querySelector("#heart-3").style.color ="red")
+})
+document.querySelector("#heart-4").addEventListener("click", function(){
+  console.log(document.querySelector("#heart-4").style.color ="red")
+})
+document.querySelector("#heart-5").addEventListener("click", function(){
+  console.log(document.querySelector("#heart-5").style.color ="red")
+})
+document.querySelector("#heart-6").addEventListener("click", function(){
+  console.log(document.querySelector("#heart-6").style.color ="red")
+})
