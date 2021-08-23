@@ -348,3 +348,10 @@ animation: showrecp 0.4 ease-in-out;
     }
 
 }
+
+footer{
+    background-color: black;
+    color: white;
+    height: 10px;
+    padding: 10px;
+}

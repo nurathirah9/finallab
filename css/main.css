@@ -497,3 +497,15 @@ textarea{
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
 }
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 10px;
+    padding: 10px;
+}
+
+.animate__animated .animate__jackInTheBox {
+    --animate-duration: 3s;
+  }
