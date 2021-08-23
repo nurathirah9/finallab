@@ -241,7 +241,7 @@ margin-bottom: 10px;
 .middle-content{
     background-color: rgba(233, 190, 203, 0.199);
     width: 80%;
-    height: 600px;
+    height: 100%;
     border: 1px solid grey;
     padding: 20px;
     margin: 30px;
@@ -365,7 +365,7 @@ margin-bottom: 10px;
     text-align: start;
     background-color: rgb(155, 199, 162);
     padding: 20px;
-    width: 80%;
+    width: 100%;
 
 }
 /* .text-box p{
@@ -373,7 +373,7 @@ padding: 20px 30px;
 
 } */
 .middle-content-3 img{
-    width: 352px;
+    width: 100vw;
     height: 400px;
 }
 
