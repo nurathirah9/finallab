@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="body-create">
+    <header class="main-header position ">
+        <div class="flex flex_1">
+        <div class="flex main-header-left flex_1">
+            <div class="logo"><u>THE</u><span>Cooks</span></div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="Contact.html">Contact</a>
+                <span id="recipesbtn">Recipes</span>
+            </nav>
+        </div>
+        <div class="main-header-right flex flex_1">
+            <nav>
+                <a href="">LogIn/SignUp</a>
+                <a href="">Subscribe</a>
+            </nav>
+            <button id="button-bars" class="button-bars">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </div>
+        </div>
+    </header>
+    <div id="header-menu-mobile" class=" header-menu-mobile flex">
+        <nav class="flex">
+            <a href="">LogIn/SignUp</a>
+            <a href="">Subscribe</a>
+            <a href="index.html">Home</a>
+            <a href="Contact.html">Contact</a>
+            <a id="recipes-btn" href="">Recipes</a>
+            <button id="close">X</button>
+        </nav>
+    </div>
+    <section id="recipes" class="recipes flex none">
+        <nav class="flex">
+            <a href="">Chicken</a>
+            <a href="">Meat</a>
+            <a href="">Vegetable/fruit</a>
+            <a href="">Fish</a>
+            <a href="">Noodles/Pasta</a>
+            <a href="">Rice/Porridge</a>
+            <button id="cancelbtn">X</button>
+        </nav>
+        
+    </section>
+
+
+    <div class="create-container">
+        <h1>Create recipes</h1>
+        <form action="#" method="post">
+            <label>Username</label><br/>
+            <input type="text" name="username" placeholder="Username" /><br/> 
+
+            <label>Email</label><br/>
+            <input type="text" name="email" placeholder="Email" /><br/>
+
+            <label>Add image</label><br/>
+            <input type="file" name="image"  /><br/>
+
+            <div id="label-ingredient">
+                <label>Ingredient</label><br/>
+                <textarea
+                  placeholder=" 1/2 ts ....."
+                  id="ingredient"
+                  name="ingredient"
+                ></textarea>
+              </div>
+
+              <div id="label-steps">
+                <label>Steps</label><br/>
+                <textarea
+                  placeholder=" 1. add some ..."
+                  id="steps"
+                  name="steps"
+                ></textarea>
+              </div>
+
+              <input type="submit" value="Post" />
+        </form>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
